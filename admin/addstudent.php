@@ -19,7 +19,9 @@
 			$sql="INSERT INTO Student VALUES (NULL, '$name', '$pass')";
 			
 			if ($conn->query($sql) === TRUE)
-				echo "<script> alert('User Added!'); </script>";
+				echo "<script>
+				
+				 </script>";
 			else
 				echo "Error: " . $sql . "<br>" . $conn->error;
 		}
